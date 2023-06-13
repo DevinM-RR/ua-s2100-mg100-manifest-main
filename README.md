@@ -20,7 +20,7 @@ Once `west` is installed, clone this repository using `west init` and `west upda
 
 ```
 # Checkout the latest manifest on main
-west init -m git@github.com:LairdCP/regal_rexnord_mg100_manifest_2038.git --manifest-rev main
+west init -m https://github.com/DevinM-RR/ua-s2100-sdk-nrf.git --manifest-rev main
 
 # Now, pull all the source described in the manifest
 west update

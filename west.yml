@@ -10,7 +10,7 @@ manifest:
   projects:
     - name: ua-s2100-zephyr_framework
       path: modules/framework
-      revision: ab025edc9245cedfd82c90d3054f168dd9f1f1cb
+      revision: d61fac8720793452491e8fb8ec1ff47483c4f952
       remote: DevinRR
     - name: jsmn
       path: modules/jsmn
@@ -30,8 +30,9 @@ manifest:
       remote: DevinRR
       import: true
     - name: ua-s2100-zephyr
+      path: zephyr
       west-commands: scripts/west-commands.yml
-      revision: f87d298156334afe86623702306ebcb82ebe2221
+      revision: 47f9ecc1dd358885d94ba469dc5a944349c3034c
       remote: DevinRR
       import: true
     - name: ua-s2100-2038-zephyr-boards-main
