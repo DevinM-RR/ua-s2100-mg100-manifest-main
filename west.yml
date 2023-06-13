@@ -3,12 +3,12 @@ manifest:
     - name: JsmnRepo
       url-base: https://github.com/zserge
     - name: LairdCP
-      url-base: git@github.com:LairdCP
+      url-base: https://github.com/DevinM-RR
 
   # Please add items below based on alphabetical order.
   # These dependencies may need updating if new features are added to the firmware.
   projects:
-    - name: zephyr_framework
+    - name: ua-s2100-zephyr_framework
       path: modules/framework
       revision: ab025edc9245cedfd82c90d3054f168dd9f1f1cb
       remote: LairdCP
@@ -16,29 +16,29 @@ manifest:
       path: modules/jsmn
       revision: 7b6858a5855299d173c5ab2b46e611bf9961cbef
       remote: JsmnRepo
-    - name: memfault-firmware-sdk
-      path: modules/memfault-firmware-sdk
-      revision: 0.16.1
-      remote: LairdCP
-    - name: regal_rexnord_mg100_firmware_2038
+    #- name: memfault-firmware-sdk
+    #  path: modules/memfault-firmware-sdk
+    #  revision: 0.16.1
+    #  remote: LairdCP
+    - name: ua-s2100-mg100-firmware-2038-main
       path: ble_gateway_firmware
       revision: Regal_Release_4.0.10
       remote: LairdCP
-    - name: sdk-nrf
+    - name: ua-s2100-sdk-nrf
       path: nrf
       revision: 687493d3365292c47487cf91c89b921a7950589f
       remote: LairdCP
       import: true
-    - name: zephyr
+    - name: ua-s2100-zephyr
       west-commands: scripts/west-commands.yml
       revision: f87d298156334afe86623702306ebcb82ebe2221
       remote: LairdCP
       import: true
-    - name: regal_rexnord_2038_zephyr_boards
+    - name: ua-s2100-2038-zephyr-boards-main
       path: ble_gateway_firmware/boards/arm
       revision: Regal_Release_4.0.10
       remote: LairdCP
-    - name: regal_rexnord_2038_zephyr_lib
+    - name: ua-s2100-2038-zephyr-lib-main
       path: modules/zephyr_lib      
       revision: Regal_Release_4.0.10
       remote: LairdCP
