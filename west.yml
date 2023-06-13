@@ -30,7 +30,7 @@ manifest:
       remote: DevinRR
       import: true
     - name: ua-s2100-zephyr
-      path: zephyr
+      # path: zephyr
       west-commands: scripts/west-commands.yml
       revision: 47f9ecc1dd358885d94ba469dc5a944349c3034c
       remote: DevinRR
