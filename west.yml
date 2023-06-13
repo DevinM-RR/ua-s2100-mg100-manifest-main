@@ -22,7 +22,7 @@ manifest:
     #  remote: DevinRR
     - name: ua-s2100-mg100-firmware-2038-main
       path: ble_gateway_firmware
-      revision: Regal_Release_4.0.10
+      revision: 8edcccdf9e7d9c1cba0bb6d20c379a1a278fe653
       remote: DevinRR
     - name: ua-s2100-sdk-nrf
       path: nrf
@@ -37,11 +37,11 @@ manifest:
       import: true
     - name: ua-s2100-2038-zephyr-boards-main
       path: ble_gateway_firmware/boards/arm
-      revision: Regal_Release_4.0.10
+      revision: 03073d6c1c5d9db649b4dc0f88c5f9357f283677
       remote: DevinRR
     - name: ua-s2100-2038-zephyr-lib-main
       path: modules/zephyr_lib      
-      revision: Regal_Release_4.0.10
+      revision: ccde6e713817902437edb21250d0935c8feafd82
       remote: DevinRR
 
   self:
