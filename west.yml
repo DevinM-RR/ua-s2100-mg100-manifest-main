@@ -4,6 +4,8 @@ manifest:
       url-base: https://github.com/zserge
     - name: DevinRR
       url-base: https://github.com/DevinM-RR
+    - name: MEMFAULT
+      url-base: https://github.com/memfault
 
   # Please add items below based on alphabetical order.
   # These dependencies may need updating if new features are added to the firmware.
@@ -16,10 +18,10 @@ manifest:
       path: modules/jsmn
       revision: 7b6858a5855299d173c5ab2b46e611bf9961cbef
       remote: JsmnRepo
-    #- name: memfault-firmware-sdk
-    #  path: modules/memfault-firmware-sdk
-    #  revision: 0.16.1
-    #  remote: DevinRR
+    - name: memfault-firmware-sdk
+      path: modules/memfault-firmware-sdk
+      revision: 0.16.1
+      remote: MEMFAULT
     - name: ua-s2100-mg100-firmware-2038-main
       path: ble_gateway_firmware
       revision: 8edcccdf9e7d9c1cba0bb6d20c379a1a278fe653
